@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <title>@luchanos</title>
     <style>
+        li {
+            list-style-type: none;
+        }
+
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
         .img-container {
             background-image: url('images/background.jpeg');
         }
@@ -13,6 +22,10 @@
             font-size: 36px;
             text-align: center;
             font-family: Gill Sans, sans-serif;
+        }
+
+        h3 {
+            text-align: center;
         }
 
         h2 {
@@ -45,11 +58,10 @@
         }
 
         body {
-            /* background-image: url("paper.gif");*/
             background-color: #cccccc;
         }
 
-        #contacts, #navigation {
+        #contacts, #navigation, #to_the_top {
             text-align: center;
         }
 
@@ -64,6 +76,7 @@
 <section id="navigation">
     <h2>Navigation</h2>
     <div><a href="#about_me">About</a></div>
+    <div><a href="#skills">Skills</a></div>
     <div><a href="#contacts">Contacts</a></div>
 </section>
 
@@ -74,6 +87,26 @@
         dont think so.
     </p>
 </section>
+<section id="skills">
+    <h2>What can I do</h2>
+    <ul>
+        <li>
+            <h3>
+                Developing
+            </h3>
+        </li>
+        <li>
+            <h3>
+                Teaching
+            </h3>
+        </li>
+        <li>
+            <h3>
+                Motivating
+            </h3>
+        </li>
+    </ul>
+</section>
 <section id="contacts">
     <h2>Contacts</h2>
     <p class="highlight">If you haven't vomited after reaging above mentioned, you cat contact me via:</p>
@@ -82,8 +115,11 @@
     <a href="http://facebook.com/luchanos" target="_blank" title="linkedin">Facebook</a>
     <a href="http://youtube.com/luchanos" target="_blank" title="linkedin">YouTube</a>
     <div>
-        <span id="mainPoint">THANKS FOR YOUR ATTENTION, FUCK!</span>
+        <span id="mainPoint">THANKS FOR YOUR ATTENTION!</span>
     </div>
 </section>
+<div id="to_the_top">
+    <a href="#navigation">To the top</a>
+</div>
 </body>
 </html>

@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <title>@luchanos</title>
     <style>
+        li {
+            list-style-type: none;
+        }
+
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
         .img-container {
             background-image: url('images/background.jpeg');
         }
@@ -13,6 +22,10 @@
             font-size: 36px;
             text-align: center;
             font-family: Gill Sans, sans-serif;
+        }
+
+        h3 {
+            text-align: center;
         }
 
         h2 {
@@ -45,11 +58,10 @@
         }
 
         body {
-            /* background-image: url("paper.gif");*/
             background-color: #cccccc;
         }
 
-        #contacts, #navigation {
+        #contacts, #navigation, #to_the_top {
             text-align: center;
         }
 
@@ -63,6 +75,7 @@
 <section id="navigation">
     <h2>Навигация</h2>
     <div><a href="#about_me">Обо мне</a></div>
+    <div><a href="#skills">Что я умею</a></div>
     <div><a href="#contacts">Контакты</a></div>
 </section>
 
@@ -72,6 +85,27 @@
         Мне 29 лет и я очень люблю программировать. Пацаны говорят, что мой сайт говно, но лично я так не думаю.
     </p>
 </section>
+<section id="skills">
+    <h2>Что я умею</h2>
+    <ul>
+        <li>
+            <h3>
+                Разрабатываю
+            </h3>
+        </li>
+        <li>
+            <h3>
+                Обучаю
+            </h3>
+        </li>
+        <li>
+            <h3>
+                Мотивирую
+            </h3>
+        </li>
+    </ul>
+</section>
+
 <section id="contacts">
     <h2>Контакты</h2>
     <p class="highlight">Если после прочтённого выше вы не блеванули, то можете написать мне по одному из
@@ -81,8 +115,11 @@
     <a href="http://facebook.com/luchanos" target="_blank" title="linkedin">Facebook</a>
     <a href="http://youtube.com/luchanos" target="_blank" title="linkedin">YouTube</a>
     <div>
-        <span id="mainPoint">СПАСИБО ЗА ВНИМАНИЕ БЛЯТЬ!</span>
+        <span id="mainPoint">СПАСИБО ЗА ВНИМАНИЕ!</span>
     </div>
 </section>
+<div id="to_the_top">
+    <a href="#navigation">Наверх</a>
+</div>
 </body>
 </html>
